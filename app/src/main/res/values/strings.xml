@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Juwa Pesa</string>
+    <string name="description_info">Info</string>
+    <string name="sema">Welcome to the Kenyan Currency Detector. The Currency Detector Application for the visually impaired people. To detect the currency with high accuracy , place the note over a flat surface and scan it using the camera.</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Qantized</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+</resources>
