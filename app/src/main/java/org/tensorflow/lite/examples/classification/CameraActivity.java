@@ -578,34 +578,7 @@ public abstract class CameraActivity extends AppCompatActivity
                 mp500.start();
               }
             });
-/**
-          }
-          else if(s1.equals("12 20_old_back") ||s1.equals("13 20_old_front" ))
-          {
-            FinalView.setText("Ksh 20");
-            TextView tv = findViewById(R.id.Final);
-            final MediaPlayer mp20 = MediaPlayer.create(this,R.raw.a20);
-            tv.setOnClickListener(new View.OnClickListener() {
-              @Override
-              public void onClick(View v) {
-                mp20.start();
-              }
-            });
-          }
-          else if(s1.equals("14 500_new_back") ||s1.equals("15 500_new_front"))
-          {
-            FinalView.setText("Ksh 500");
-            ///# RIP 500 old :-P
-            TextView tv = findViewById(R.id.Final);
-            final MediaPlayer mp500 = MediaPlayer.create(this,R.raw.a500);
-            tv.setOnClickListener(new View.OnClickListener() {
-              @Override
-              public void onClick(View v) {
-                mp500.start();
-              }
-            }); **/
-          //For Ksh 1000
-          }
+
           else if(s1.equals("0 1000") )
           {
             FinalView.setText("Ksh 1000");
